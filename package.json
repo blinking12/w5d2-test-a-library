@@ -1,0 +1,22 @@
+{
+  "name": "w5d2-test-a-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "chai.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blinking12/w5d2-test-a-library.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blinking12/w5d2-test-a-library/issues"
+  },
+  "homepage": "https://github.com/blinking12/w5d2-test-a-library#readme",
+  "dependencies": {
+    "chai": "^3.5.0"
+  }
+}
