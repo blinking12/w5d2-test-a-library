@@ -64,8 +64,9 @@ describe('MoDom', function() {
   })
   describe('flipPage()', function() {
     it('should flip the page upside down', function() {
-         md.flipPage('body')
+         md.flipPage('transform: rotate(180deg)')
         expect(document.body.style.transform).to.equal('rotate(180deg)')
+        md.flipPage('transform: rotate(0deg)')
     })
 })
 })

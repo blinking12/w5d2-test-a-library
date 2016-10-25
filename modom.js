@@ -54,7 +54,7 @@
     }
     //11.
     var flipPage = function(selector) {
-        return one(selector).style.transform = 'rotate(180deg)'
+        setAttr('body', 'style', selector)
     }
 
     // // Add an ajax() function that fetches API data.
